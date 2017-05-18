@@ -5,6 +5,7 @@ MAINTAINER Rolf Krahl <rolf.krahl@helmholtz-berlin.de>
 RUN zypper --non-interactive install \
 	samba
 
+RUN mkdir /usr/lib/samba
 COPY start-samba.sh /usr/lib/samba
 RUN chmod 0755 /usr/lib/samba/start-samba.sh
 
