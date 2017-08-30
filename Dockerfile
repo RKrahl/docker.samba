@@ -1,4 +1,4 @@
-FROM rkrahl/opensuse:42.2
+FROM rkrahl/opensuse:42.3
 
 MAINTAINER Rolf Krahl <rolf.krahl@helmholtz-berlin.de>
 
